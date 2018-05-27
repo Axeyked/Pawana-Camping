@@ -117,6 +117,8 @@ body {
 /* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
+  background: url('../images/jumbo-768.jpg') no-repeat;
+  background-position: center;
 }
 
 #menu-tile, #package-tile, #map-tile {
