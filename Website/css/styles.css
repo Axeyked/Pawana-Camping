@@ -309,7 +309,7 @@ body {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #map-tile, #package-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
