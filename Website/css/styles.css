@@ -290,7 +290,7 @@ body {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    align-items: center;
+    align-items: center;    
   }
 
   #menu-tile, #package-tile{
