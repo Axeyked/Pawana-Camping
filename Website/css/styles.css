@@ -290,6 +290,7 @@ body {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+    background: url('../images/Jumbo-768.jpg') no-repeat;
     align-items: center;    
   }
 
