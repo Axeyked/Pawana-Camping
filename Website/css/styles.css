@@ -5,6 +5,85 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+
+/** Fade In Content **/
+#main-content{
+	animation-name: animateContent;
+	animation-duration: 1s;
+	position: relative;
+}
+
+@keyframes animateContent{
+	from{ bottom: -15px; 
+		opacity: 0;
+
+	}
+	to{
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+/** Spinners Not in use; Kept as spares **/
+/*Spinner 1*/
+.spinner-1:before{
+	content: "";
+	box-sizing: border-box;
+	position: absolute;
+	top: 100%;
+	left: 78%;
+	height: 60px;
+	width: 60px;
+	margin-top: -25%;
+	margin-left: -30%;
+	border-radius: 50%;
+	border: 3px solid lightgray;
+	border-top-color: crimson;
+	animation: spinner 0.7s linear infinite; 
+}
+
+/*Spinner 2*/
+.spinner-2:before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: 78%;
+    height: 60px;
+    width: 60px;
+    margin-top: -25%;
+    margin-left: -30%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: crimson;
+    border-bottom-color: crimson;
+    animation: spinner 0.7s ease infinite; 
+}
+
+    /*Spinner 3*/
+.spinner-3:before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    left: 78%;
+    height: 60px;
+    width: 60px;
+    margin-top: -25%;
+    margin-left: -30%;
+    border-radius: 50%;
+    border-top: 2px solid crimson;
+    border-right: 2px solid transparent;
+    animation: spinner 0.7s linear infinite; 
+}
+
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    }
+}
+/** Spinner End **/
+
 /** HEADER **/
 #header-nav {
   background-color: #f6b319;
