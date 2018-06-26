@@ -9,7 +9,7 @@ body {
 /** Fade In Main-Content **/
 #main-content{
 	animation-name: animateContent;
-	animation-duration: 0.8s;
+	animation-duration: 0.8s;	
 	position: relative;
 }
 
@@ -25,6 +25,7 @@ body {
 }
 /** Fade In Main-Content End **/
 
+/* Fade In Header */
 #header-nav{
 	animation-name: headerDrop;
 	animation-duration: 0.8s;
@@ -42,7 +43,7 @@ body {
 	}
 }
 
-
+/* Fade In Header End */
 
 /** Spinners Not in use; Kept as spares **/
 /*Spinner 1*/
